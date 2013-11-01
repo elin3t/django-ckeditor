@@ -51,6 +51,8 @@ CKEDITOR.stylesSet.add( 'default', [
 	
 	{ name: 'Strong',			element: 'strong', overrides: 'b' },
 	{ name: 'Emphasis',			element: 'em'	, overrides: 'i' },
+	{ name: 'Bold',			element: 'strong', overrides: 'b' },
+	{ name: 'Italic',			element: 'em'	, overrides: 'i' },
 	/*
 	{ name: 'Underline',		element: 'u' },
 	{ name: 'Strikethrough',	element: 'strike' },
