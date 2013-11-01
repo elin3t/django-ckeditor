@@ -49,10 +49,10 @@ CKEDITOR.stylesSet.add( 'default', [
 	// some of them in the Styles combo, removing them from the toolbar.
 	// (This requires the "stylescombo" plugin)
 	
-	{ name: 'Strong',			element: 'strong', overrides: 'b' },
-	{ name: 'Emphasis',			element: 'em'	, overrides: 'i' },
-	{ name: 'Bold',			element: 'strong', overrides: 'b' },
-	{ name: 'Italic',			element: 'em'	, overrides: 'i' },
+	{ name: 'Strong',			element: 'b', overrides: 'strong' },
+	{ name: 'Emphasis',			element: 'i'	, overrides: 'em' },
+	{ name: 'Bold',			element: 'b', overrides: 'strong' },
+	{ name: 'Italic',			element: 'i'	, overrides: 'em' },
 	/*
 	{ name: 'Underline',		element: 'u' },
 	{ name: 'Strikethrough',	element: 'strike' },
